@@ -1,9 +1,17 @@
+-- This file was automatically generated for the LuaDist project.
+
 package = "luabidi"
-version = "0.0.1-0"
+version = "0.0.3-0"
+-- LuaDist source
 source = {
-  url = "git://github.com/deepakjois/luabidi.git",
-  tag = "v0.0.1"
+  tag = "0.0.3-0",
+  url = "git://github.com/LuaDist-testing/luabidi.git"
 }
+-- Original source
+-- source = {
+--   url = "git://github.com/deepakjois/luabidi.git",
+--   tag = "v0.0.3"
+-- }
 description = {
   summary = "Lua implementation of the Unicode Bidirectional Algorithm",
   homepage = "https://github.com/deepakjois/luabidi",
@@ -11,8 +19,8 @@ description = {
   maintainer = "Deepak Jois <deepak.jois@gmail.com>"
 }
 dependencies = {
-  "lua ~> 5.2",
-  "luaucdn >= 0.0.2"
+  "lua >= 5.2",
+  "luaucdn >= 0.0.4"
 }
 build = {
   type = "builtin",
