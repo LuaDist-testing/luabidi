@@ -9,7 +9,7 @@ luarocks install luabidi
 
 ## Documentation
 
-* [API Docs](http://deepakjois.github.io/luabidi/)
+* [API Docs](http://ufytex.github.io/luabidi/)
 
 ## Quickstart
 
@@ -33,7 +33,7 @@ end
 print("Original codepoints (in logical order): " .. serpent.line(text,{comment = false}))
 print("Visual reordering: " .. serpent.line(reordered_text,{comment = false})) -- should be { "U+06C1", "U+06CC"}
 ```
-More sample code in the [examples](https://github.com/deepakjois/luabidi/tree/master/example) folder.
+More sample code in the [examples](https://github.com/ufytex/luabidi/tree/master/example) folder.
 
 ## Development
 
@@ -62,5 +62,5 @@ make lint
 ## Contact
 [Open a Github issue][luabidi-issues], or email me at <deepak.jois@gmail.com>.
 
-[luabidi-issues]: https://github.com/deepakjois/luabidi/issues
+[luabidi-issues]: https://github.com/ufytex/luabidi/issues
 

@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "luabidi"
-version = "0.0.5-1"
+version = "0.0.6-1"
 -- LuaDist source
 source = {
-  tag = "0.0.5-1",
+  tag = "0.0.6-1",
   url = "git://github.com/LuaDist-testing/luabidi.git"
 }
 -- Original source
 -- source = {
 --    url = "git://github.com/deepakjois/luabidi.git",
---    tag = "v0.0.5"
+--    tag = "v0.0.6"
 -- }
 description = {
    summary = "Lua implementation of the Unicode Bidirectional Algorithm",
@@ -20,7 +20,7 @@ description = {
 }
 dependencies = {
    "lua >= 5.2",
-   "luaucdn >= 0.0.6"
+   "luaucdn >= 0.0.8"
 }
 build = {
    type = "builtin",
